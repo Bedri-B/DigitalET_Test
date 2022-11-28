@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: docker-express-digi_e
+    image: docker-express-digi_e
+    build:
+      context: .
+    ports:
+      - "8081:3001"
